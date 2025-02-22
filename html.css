@@ -1,0 +1,212 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  box-shadow: 0px 0px 50px 10px green;
+  position: fixed;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+nav ul a {
+  color: black;
+  font-size: 30px;
+}
+nav h1 {
+  color: black;
+  font-size: 40px;
+}
+nav .buttons {
+  display: flex;
+  gap: 20px;
+}
+nav .buttons button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+nav .buttons button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.contener {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contener .card {
+  width: 90%;
+  height: 80%;
+  background-image: url(./Снимок\ экрана\ 2025-01-07\ 155150.png);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 0px 0px 100px 10px green;
+  border-radius: 50px;
+}
+.contener .card .text {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.contener .card .text h1 {
+  font-size: 50px;
+}
+.contener .card .text p {
+  font-size: 40px;
+}
+.contener .card .text input {
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  color: greenyellow;
+}
+.contener .card .text .buttons2 {
+  display: flex;
+  gap: 20px;
+}
+.contener .card .text .buttons2 button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+.contener .card .text .buttons2 button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.contener2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contener2 .card {
+  width: 90%;
+  height: 80%;
+  background-image: url(./Снимок\ экрана\ 2025-01-07\ 155207.png);
+  color: white;
+  margin-top: 50px;
+  box-shadow: 0px 0px 100px 10px green;
+  border-radius: 50px;
+}
+.contener2 .card .text {
+  width: 45%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  color: green;
+}
+.contener2 .card .text h1 {
+  font-size: 50px;
+}
+.contener2 .card .text p {
+  font-size: 40px;
+}
+.contener2 .card .text input {
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  color: greenyellow;
+}
+.contener2 .card .text .buttons2 {
+  display: flex;
+  gap: 20px;
+}
+.contener2 .card .text .buttons2 button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+.contener2 .card .text .buttons2 button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+@media (min-width: 700px) and (max-width: 990px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .bottons button {
+    padding: 10px 30px;
+  }
+  .contener {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+  }
+  .contener .card .text {
+    width: 500px;
+  }
+  .contener2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;
+    margin-top: -200px;
+  }
+  .contener2 .card {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contener2 .card .text {
+    width: 470px;
+  }
+  .contener2 .card .text h1 {
+    text-align: end;
+  }
+  .contener2 .card .text p {
+    text-align: end;
+  }
+  .contener2 .card .text .bottons2 {
+    margin-left: -100px;
+  }
+  .contener2 .card .text .bottons2 button {
+    padding: 10px 30px;
+  }
+  .contener2 .card .text input {
+    width: 200px;
+  }
+}/*# sourceMappingURL=html.css.map */
